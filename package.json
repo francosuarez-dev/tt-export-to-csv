@@ -1,0 +1,39 @@
+{
+  "name": "tt-export-to-csv",
+  "description": "Export TanStack Table data to CSV format",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/francosuarez-dev/tt-export-to-csv.git"
+  },
+  "keywords": ["TanStack", "Table", "Export", "csv", "React"],
+  "author": {
+    "name": "Franco Suarez",
+    "email": "contacto@doctadev.com",
+    "url": "https://github.com/francosuarez-dev"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/francosuarez-dev/tt-export-to-csv/issues"
+  },
+  "homepage": "https://github.com/francosuarez-dev/tt-export-to-csv",
+  "peerDependencies": {
+    "@tanstack/react-table": "^8.20.1",
+    "papaparse": "^5.4.1",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.14",
+    "@types/react": "^18.3.3",
+    "typescript": "^5.5.4"
+  }
+}
